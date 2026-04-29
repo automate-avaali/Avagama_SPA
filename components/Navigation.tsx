@@ -25,7 +25,7 @@ const Navigation: React.FC = () => {
   const Logo = () => (
     <div className="flex items-center">
       <img
-        src="/Avagama.AI_Logo.jpg"
+        src="/Avagama.AI_Logo.png"
         alt="Avagama AI"
         className="h-10 object-contain"
       />
@@ -70,6 +70,8 @@ const Navigation: React.FC = () => {
           <div className="hidden lg:flex items-center gap-4 shrink-0 relative z-[120]">
             <a 
               href="http://13.235.19.43:3000/" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gray-900 text-white px-7 py-3 rounded-2xl text-xs font-black tracking-widest uppercase hover:bg-black transition-all shadow-xl shadow-gray-100"
             >
               Get Started
@@ -165,6 +167,8 @@ const Navigation: React.FC = () => {
               >
                 <a 
                   href="http://13.235.19.43:3000/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="block bg-gray-900 text-white py-6 rounded-[28px] text-center font-black uppercase tracking-widest shadow-xl shadow-gray-100 hover:bg-black transition-all"
                 >
                   Get Started

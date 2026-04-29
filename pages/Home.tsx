@@ -30,7 +30,12 @@ const Home: React.FC = () => {
             </div>
           </div>
           <div className="pt-6 md:pt-8">
-            <a href="http://13.235.19.43:3000/" className="bg-[#a26da8] text-white px-8 md:px-10 py-4 md:py-5 rounded-2xl text-base md:text-lg font-black hover:bg-[#8b5a93] shadow-2xl shadow-purple-200 transition-all inline-block hover:-translate-y-1 uppercase tracking-widest text-xs md:text-sm">
+            <a 
+              href="http://13.235.19.43:3000/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#a26da8] text-white px-8 md:px-10 py-4 md:py-5 rounded-2xl text-base md:text-lg font-black hover:bg-[#8b5a93] shadow-2xl shadow-purple-200 transition-all inline-block hover:-translate-y-1 uppercase tracking-widest text-xs md:text-sm"
+            >
               Get Started
             </a>
           </div>

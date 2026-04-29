@@ -107,7 +107,12 @@ const About: React.FC = () => {
          <div className="max-w-2xl mx-auto space-y-10">
             <h2 className="text-4xl font-bold">Ready to discover your <span className="text-[#9d7bb0]">Agentic Roadmap?</span></h2>
             <div className="flex justify-center">
-               <a href="http://13.235.19.43:3000/" className="bg-[#9d7bb0] text-white px-10 py-5 rounded-2xl font-black shadow-2xl shadow-purple-200 hover:scale-105 transition-all inline-block uppercase tracking-widest text-sm">
+               <a 
+                  href="http://13.235.19.43:3000/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#9d7bb0] text-white px-10 py-5 rounded-2xl font-black shadow-2xl shadow-purple-200 hover:scale-105 transition-all inline-block uppercase tracking-widest text-sm"
+               >
                   Get Started
                </a>
             </div>

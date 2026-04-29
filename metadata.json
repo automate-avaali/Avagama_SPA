@@ -1,0 +1,8 @@
+{
+  "name": "Avagama AI - Enterprise Portal (SPA)",
+  "description": "A streamlined enterprise-grade showcase for Avagama AI's process evaluation capabilities, including a walkthrough demo, guided tour, and platform information.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
